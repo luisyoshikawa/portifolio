@@ -14,7 +14,7 @@ export const Hero = () => {
           <div className="h-1 w-12 rounded-full bg-blue-800"></div>
           Desenvolvedor React.js Front-End</h2>
           <p className='text-gray-400 my-4 text-center md:text-left'>
-           Sou um desenvolvimento Front-End React.js que Transforma Ideias em Interfaces Cativantes. 
+           Sou um desenvolvedor Front-End React.js que Transforma Ideias em Interfaces Cativantes. 
           </p>
 
           <div className='flex items-center md:justify-start justify-center gap-2'>
