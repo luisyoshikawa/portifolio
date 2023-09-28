@@ -18,9 +18,9 @@ export const Hero = () => {
           </p>
 
           <div className='flex items-center md:justify-start justify-center gap-2'>
-            <a href="#" className='underline font-bold text-white hover:text-gray-300'> Entre em Contato </a>
+            <a href="https://wa.me/5511985585267" className='underline font-bold text-white hover:text-gray-300' target="_blank"> Entre em Contato </a>
             <span className='italic text-gray-500'>ou</span>
-            <a href="#" className='button text-gray-600 hover:text-gray-900 flex items-center gap-2'> <HiDownload /> Baixe meu CV </a>
+            <a href="LuisFelipe.pdf" target="_blank" className='button text-gray-600 hover:text-gray-900 flex items-center gap-2'> <HiDownload /> Baixe meu CV </a>
           </div>
           </div>
           <div className="basis-1/2">
