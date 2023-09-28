@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const About = () => {
   return (
     <section className='container mx-auto my-4 max-w-5xl p-4'>
