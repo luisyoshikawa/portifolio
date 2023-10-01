@@ -2,7 +2,7 @@ import { HiDownload } from "react-icons/hi"
 
 export const Hero = () => {
   return (
-    <section className='bg-gradient-to-tr from-black to-gray-900 text-white'>
+    <section className='rounded-br-[80px] bg-gradient-to-tr from-black to-gray-900 text-white md:rounded-br-[180px]'>
       <div className="container mx-auto max-w-4xl p-3 py-12 flex flex-col md:flex-row">
           <div className="basis-1/2">
           <h1 className='mb-4 text-center md:text-left'>
@@ -26,6 +26,8 @@ export const Hero = () => {
           <div className="basis-1/2">
           </div>
       </div>
+      <div className="absolute left-0 -mt-2 h-3 w-1/4 rounded-r-full bg-gradient-to-r from-blue-700 to-blue-600 md:w-1/3" />
     </section>
+    
   )
 }
