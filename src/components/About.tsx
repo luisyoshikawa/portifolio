@@ -64,11 +64,11 @@ export const About = () => {
                   </td>
                   <td>
                     <a
-                      href="https://maps.app.goo.gl/B2AmGwm7pm3cfJe78"
+                      href="https://maps.app.goo.gl/HGRLWVgkzTp5Wuvi6"
                       target="_blank"
                       className="underline hover:text-blue-800"
                     >
-                      Mauá - SP
+                      São Paulo
                     </a>
                   </td>
                 </tr>

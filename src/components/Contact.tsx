@@ -54,8 +54,8 @@ export function Contact() {
       icon: <HiOutlineEnvelope className="h-10 w-10" />,
     },
     {
-      name: "Mauá",
-      link: "https://maps.app.goo.gl/B2AmGwm7pm3cfJe78",
+      name: "São Paulo",
+      link: "https://maps.app.goo.gl/HGRLWVgkzTp5Wuvi6",
       target:"_blank",
       icon: <HiOutlineMapPin className="h-10 w-10" />,
     },
