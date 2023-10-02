@@ -12,7 +12,7 @@ export const About = () => {
 
       <div className="relative mx-auto mt-20 max-w-lg">
         <div className=' relative w-full rounded-lg bg-blue-100 p-4 ps-20 md:h-64 md:ps-48'>
-          <img src="images\LuisFelipe.jpeg" className='absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56'/>
+          <img src="images\LuisFelipe.jpeg" className='absolute -left-2 -top-4 h-24 w-20 rounded-lg bg-gray-600 bg-cover bg-center md:-left-12 md:-top-12 md:h-72 md:w-56' style={{objectFit:"cover"}}/>
           <div className='relative h-full w-full rounded-lg bg-gray-50 p-4'>
 
             <p className=" text-lg font-bold">Olá,</p>
