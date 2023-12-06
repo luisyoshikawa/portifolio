@@ -12,24 +12,24 @@ export const Skills = () => {
 
   const skills = [
     {
-      name: "Asp.Net",
-      icon: "images/.net.png",
-      level: 95,
-    },
-    {
       name: "JavaScript",
       icon: "images/javascript.svg",
-      level: 90,
+      level: 95,
     },
     {
       name: "React.js",
       icon: "images/react.svg",
-      level: 77,
+      level: 90,
     },
     {
       name: "Typescript",
       icon: "images/typescript.png",
-      level: 70,
+      level: 85,
+    },
+    {
+      name: "Asp.Net",
+      icon: "images/.net.png",
+      level: 80,
     },
   ]
   return (
