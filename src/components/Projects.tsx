@@ -3,20 +3,12 @@ import { HiArrowTopRightOnSquare } from "react-icons/hi2"
 export const Projects = () => {
   const projects = [
     {
-      title: "Projeto ABC",
-      description: "Carrinho de E-commerce",
+      title: "Biblioteca",
+      description: "Crud básico feito em Asp.net",
       image:
-        "images/ABC.png",
-      link: "https://cart-pi-one.vercel.app/",
+        "images/Emprestimos.png",
+      link: "https://www.linkedin.com/posts/luisyoshikawa_mvc-activity-7137935957579735040-zWng?utm_source=share&utm_medium=member_desktop",
       colSpan: "col-span-1",
-    },
-    {
-      title: "Fintech",
-      description: "Consumindo uma api, tratando ela, expondo e construindo um gráfico",
-      image:
-        "images/fintech.png",
-      link: "https://fintech-azure.vercel.app/",
-      colSpan: "col-span-1 md:col-span-2",
     },
     {
       title: "Alunos API",
@@ -27,13 +19,22 @@ export const Projects = () => {
       colSpan: "col-span-1 md:col-span-2",
     },
     {
-      title: "Biblioteca",
-      description: "Crud básico feito em Asp.net",
+      title: "Fintech",
+      description: "Consumindo uma api, tratando ela, expondo e construindo um gráfico",
       image:
-        "images/Emprestimos.png",
-      link: "https://www.linkedin.com/posts/luisyoshikawa_mvc-activity-7137935957579735040-zWng?utm_source=share&utm_medium=member_desktop",
+        "images/fintech.png",
+      link: "https://fintech-azure.vercel.app/",
+      colSpan: "col-span-1 md:col-span-2",
+    },
+    {
+      title: "Projeto ABC",
+      description: "Carrinho de E-commerce",
+      image:
+        "images/ABC.png",
+      link: "https://cart-pi-one.vercel.app/",
       colSpan: "col-span-1",
     },
+
   ]
   return (
     <>
