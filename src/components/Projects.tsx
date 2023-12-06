@@ -18,6 +18,22 @@ export const Projects = () => {
       link: "https://fintech-azure.vercel.app/",
       colSpan: "col-span-1 md:col-span-2",
     },
+    {
+      title: "Alunos API",
+      description: "Criando e Consumindo uma api (.Net & React)",
+      image:
+        "images/AlunosApi.png",
+      link: "https://www.linkedin.com/posts/luisyoshikawa_emprego-opentowork-informaertica-activity-7137985036741496832-Jrqw?utm_source=share&utm_medium=member_desktop",
+      colSpan: "col-span-1 md:col-span-2",
+    },
+    {
+      title: "Biblioteca",
+      description: "Crud básico feito em Asp.net",
+      image:
+        "images/Emprestimos.png",
+      link: "https://www.linkedin.com/posts/luisyoshikawa_mvc-activity-7137935957579735040-zWng?utm_source=share&utm_medium=member_desktop",
+      colSpan: "col-span-1",
+    },
   ]
   return (
     <>
@@ -32,7 +48,7 @@ export const Projects = () => {
             </h2>
             <p className="relative text-sm text-gray-400">
               Alguns dos projetos pessoais e que já realizei ao longo da minha
-              trajetória como programador front-end.
+              trajetória como Desenvolvedor.
             </p>
             <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10" />
           </div>
@@ -43,7 +59,7 @@ export const Projects = () => {
                 key={index}
                 className={`group relative h-52 cursor-default rounded-lg ${project.colSpan} bg-cover bg-center`}
               >
-                <img src={project.image} alt={project.title} className="h-full w-full rounded-lg"/>
+                <img src={project.image} alt={project.title} className="h-full w-full rounded-lg "/>
                 <div className="absolute inset-0 flex h-full w-full flex-col items-center justify-center rounded-lg bg-blue-600 text-white opacity-0 transition-opacity group-hover:opacity-100">
                   <h4 className="font-headline text-lg font-semibold">
                     {project.title}

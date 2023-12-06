@@ -12,8 +12,8 @@ export const Skills = () => {
 
   const skills = [
     {
-      name: "HTML5/CSS3",
-      icon: "images/html.svg",
+      name: "Asp.Net",
+      icon: "images/.net.png",
       level: 95,
     },
     {
@@ -45,7 +45,7 @@ export const Skills = () => {
             </span>
           </h2>
           <p className="relative text-sm text-gray-700">
-            Front-end Developer | React.js | TypeScript
+            Developer | Asp.net | React.js | TypeScript
             | JavaScript
           </p>
           <div className="absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-400/10" />
@@ -84,6 +84,7 @@ export const Skills = () => {
                       src={skill.icon}
                       alt={skill.name}
                       className="h-10 w-10 rounded"
+                      style={{objectFit:"cover"}}
                     />
                   </div>
                   <div className="w-full flex-grow">

@@ -9,13 +9,13 @@ export const Services = () => {
     {
       title: "Web",
       description:
-        "Desenvolvimento de sites e sistemas web estáticos e dinâmicos com React.js, Typescript, HTML5 e CSS3",
+        "Desenvolvimento de sites e sistemas web estáticos e dinâmicos com Asp.net, React.js, Typescript, HTML5 e CSS3",
       icon: <HiComputerDesktop className="h-12 w-12" />,
     },
     {
       title: "API",
       description:
-        "Proficiente em consumo de APIs: alavancando a conexão de Dados para impulsionar Resultados",
+        "Proficiente em consumo e criação de APIs: alavancando a conexão de Dados para impulsionar Resultados",
       icon: <HiCommandLine className="h-12 w-12" />,
     },
     {
@@ -36,7 +36,7 @@ export const Services = () => {
         </h2>
 
         <p className='text-sm text-gray-600'>
-          Posso atender uma gama de serviços do front-end.
+          Posso atender uma gama de serviços.
         </p>
 
       </div>

@@ -12,9 +12,9 @@ export const Hero = () => {
           </h1>
         <h2 className='font-semibold flex items-center gap-2 text-center md:text-left'>
           <div className="h-1 w-12 rounded-full bg-blue-800"></div>
-          Desenvolvedor React.js Front-End</h2>
+          Desenvolvedor Full-stack .Net & React</h2>
           <p className='text-gray-400 my-4 text-center md:text-left'>
-           Sou um desenvolvedor Front-End React.js que Transforma Ideias em Interfaces Cativantes. 
+           Sou um desenvolvedor Full-stack .Net + React.js que Transforma Ideias em Realidade. 
           </p>
 
           <div className='flex items-center md:justify-start justify-center gap-2'>

@@ -6,7 +6,7 @@ export const About = () => {
           <span className='mr-2 text-3xl'>Sobre</span>
           <span className="text-3xl">Mim</span>
         </h2>
-        <p className='relative text--sm text-gray-600'> Tenho mais de 10 projetos executados e gostaria que o próximo seja o seu.</p>
+        <p className='relative text--sm text-gray-600'> Tenho mais de 15 projetos executados e gostaria que o próximo seja o seu.</p>
         <div className='absolute left-1/2 top-3 z-0 h-10 w-10 rounded-lg bg-blue-100/40'></div>
       </div>
 
@@ -29,7 +29,7 @@ export const About = () => {
                   <td className="font-bold uppercase text-blue-900">
                     Idade:
                   </td>
-                  <td>19</td>
+                  <td>20</td>
                 </tr>
                 <tr>
                   <td className="font-bold uppercase text-blue-900">
